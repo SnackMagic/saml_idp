@@ -43,7 +43,7 @@ Gem::Specification.new do |s|
     section of the README.
   INST
 
-  s.add_dependency('activesupport', '>= 5.2')
+  s.add_dependency('activesupport', '>= 5.1')
   s.add_dependency('builder', '>= 3.0')
   s.add_dependency('nokogiri', '>= 1.6.2')
   s.add_dependency('ostruct')
@@ -53,7 +53,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency('activeresource', '~> 6.1')
   s.add_development_dependency('appraisal')
   s.add_development_dependency('capybara', '>= 2.16')
-  s.add_development_dependency('rails', '>= 5.2')
+  s.add_development_dependency('rails', '>= 5.1')
   s.add_development_dependency('debug')
   s.add_development_dependency('rake')
   s.add_development_dependency('rspec', '>= 3.7.0')
